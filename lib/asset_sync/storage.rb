@@ -148,7 +148,6 @@ module AssetSync
       file = {
         :key => f,
         :body => file_handle,
-        :public => true,
         :content_type => mime
       }
 
